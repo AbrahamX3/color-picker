@@ -199,7 +199,7 @@ export default function ColorPicker() {
               <Image
                 fill
                 quality={100}
-                className="rounded-md object-cover"
+                className="rounded-md border border-border object-cover"
                 src={image}
                 alt="Uploaded Image"
               />

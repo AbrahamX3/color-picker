@@ -2,6 +2,8 @@ import { type Metadata } from "next";
 
 import ColorPicker from "@/components/color-picker";
 
+export const runtime = "edge";
+
 export const metadata: Metadata = {
   title: "Image Color Picker",
   description:
@@ -37,6 +39,7 @@ export const metadata: Metadata = {
     locale: "en-US",
     type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
     title: "Image Color Picker",
