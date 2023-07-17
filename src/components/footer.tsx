@@ -1,8 +1,8 @@
 export function Footer() {
   return (
-    <footer className="border-t py-4 md:py-4">
-      <div className="flex flex-col items-center justify-between gap-4 md:h-8 md:flex-row">
-        <div className="flex flex-col items-center gap-4 md:flex-row md:gap-2 md:px-0">
+    <footer className="border-t pt-2">
+      <div className=" flex flex-col items-center justify-between gap-4 md:h-8 md:flex-row">
+        <div className="gap-4md:flex-row flex flex-col items-center md:gap-2 md:px-0">
           <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
             Built by{" "}
             <a
@@ -15,7 +15,7 @@ export function Footer() {
             </a>
             . Source code available on{" "}
             <a
-              href="#"
+              href="https://github.com/AbrahamX3/color-picker"
               target="_blank"
               rel="noreferrer"
               className="font-medium underline underline-offset-4"
